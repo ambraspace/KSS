@@ -1,0 +1,107 @@
+[Root]
+Most Recent Package=KSS Zaposlenja
+
+
+[Package|KSS Zaposlenja|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\Moji VB primjeri\KSS\Package
+
+[Package|KSS Zaposlenja|Configure DAO ISAMs]
+Applicable=No
+
+[Package|KSS Zaposlenja|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|KSS Zaposlenja|Files Found]
+
+[Package|KSS Zaposlenja|Files Released]
+
+[Package|KSS Zaposlenja|Missing Dependency Information]
+
+[Package|KSS Zaposlenja|Out-of-Date Dependency Information]
+
+[Package|KSS Zaposlenja|Files Added]
+C:\My Documents\Moji VB primjeri\KSS\TAHOMABD.TTF=
+C:\My Documents\Moji VB primjeri\KSS\TAHOMA.TTF=
+C:\My Documents\Moji VB primjeri\KSS\podaci.mdb=
+
+[Package|KSS Zaposlenja|Files Removed]
+
+[Package|KSS Zaposlenja|Files In Project]
+C:\My Documents\Moji VB primjeri\KSS\KSS.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\mscomctl.ocx=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\SYSTEM\mscomct2.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\My Documents\Moji VB primjeri\KSS\TAHOMABD.TTF=Yes
+C:\My Documents\Moji VB primjeri\KSS\TAHOMA.TTF=Yes
+C:\My Documents\Moji VB primjeri\KSS\podaci.mdb=Yes
+
+[Package|KSS Zaposlenja|Configure Registry Files]
+Applicable=No
+
+[Package|KSS Zaposlenja|Configure Remote Servers]
+Applicable=No
+
+[Package|KSS Zaposlenja|Install Locations]
+C:\My Documents\Moji VB primjeri\KSS\KSS.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\SYSTEM\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Documents\Moji VB primjeri\KSS\TAHOMABD.TTF=$(Font)
+C:\My Documents\Moji VB primjeri\KSS\TAHOMA.TTF=$(Font)
+C:\My Documents\Moji VB primjeri\KSS\podaci.mdb=$(AppPath)
+
+[Package|KSS Zaposlenja|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\Moji VB primjeri\KSS\KSS.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\My Documents\Moji VB primjeri\KSS\podaci.mdb=No
+
+[Package|KSS Zaposlenja|Distribution]
+Type=single
+Size=
+Title=KSS Zaposlenja
+
+[Package|KSS Zaposlenja|IconGroups]
+Group0=KSS Zaposlenja
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|KSS Zaposlenja|KSS Zaposlenja]
+Icon1=KSS.exe
+Title1=KSS Zaposlenja
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|KSS Zaposlenja|Package]
+PackageFolder=C:\My Documents\Moji VB primjeri\KSS\Package
+ProjectFolder=C:\My Documents\Moji VB primjeri\KSS
+ServerSideCab=
+File1=C:\My Documents\Moji VB primjeri\KSS\Package\setup.exe
+File2=C:\My Documents\Moji VB primjeri\KSS\Package\Setup.Lst
+File3=C:\My Documents\Moji VB primjeri\KSS\Package\KSS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
